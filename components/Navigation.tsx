@@ -122,7 +122,7 @@ export default function Navigation() {
             <img
               src="/logo/NICSlogo.svg"
               alt="logo"
-              className="h-14 md:h-20 w-auto scale-[1.3] md:scale-[1.8] origin-left"
+              className="h-16 md:h-20 w-auto scale-[1.3] md:scale-[1.8] origin-left"
             />
           </Link>
 

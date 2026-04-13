@@ -495,10 +495,13 @@ export default function HomePage() {
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-6">
-                <button className="bg-gradient-to-r from-[#14473b] to-[#039158]  hover:from-[#039bad] hover:to-[#05ce9b] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 flex items-center space-x-2 text-sm sm:text-base">
-                  <span>Book Free Demo</span>
-                  <ArrowRight className="w-4 h-4" />
-                </button>
+                <Link
+  href="/contact"
+  className="inline-block bg-gradient-to-r from-[#14473b] to-[#039158] hover:from-[#039bad] hover:to-[#05ce9b] text-white px-6 sm:px-8 py-3 rounded-full"
+>
+  Book Free Demo
+  
+</Link>
 
                 {/* <button className="flex items-center space-x-3 text-gray-700 hover:text-[#05ce9b] transition-colors duration-300 group">
                   <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300">
