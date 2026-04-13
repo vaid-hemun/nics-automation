@@ -179,10 +179,7 @@ function ConnectUs() {
               </h2>
             </div>
 
-            <form
-  name="contact"
-  method="POST"
-  data-netlify="true"
+           <form action="https://formspree.io/f/mpqkagzb" method="POST">
   className="space-y-4 md:space-y-6"
 >
   <input type="hidden" name="form-name" value="contact" />
