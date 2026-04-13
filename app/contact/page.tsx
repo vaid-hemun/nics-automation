@@ -144,12 +144,7 @@ function ConnectUs() {
                     Gurgaon,122017
                   </p>
                 </div>
-                <div className="flex items-center gap-2 md:gap-3">
-                  <Phone className="w-5 h-5 md:w-6 md:h-6 text-[#05ce9b]" />
-                  <a href="tel:+919711497160" className="text-sm md:text-lg text-gray-300 hover:text-[#05ce9b] transition-colors">
-                    (+91) 9711497160
-                  </a>
-                </div>
+                
                 <div className="flex items-center gap-2 md:gap-3">
                   <Mail className="w-5 h-5 md:w-6 md:h-6 text-[#05ce9b]" />
                   <a href="mailto:info@nicsautomation.com" className="text-sm md:text-lg text-gray-300 hover:text-[#05ce9b] transition-colors">

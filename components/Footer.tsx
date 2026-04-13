@@ -93,10 +93,7 @@ export default function Footer() {
                 <a href='mailto:info@nicsautomation.com' className="text-gray-400 text-base sm:text-sm">
                   info@nicsautomation.com</a>
               </div>
-              <div className="flex items-center justify-center md:justify-start space-x-3">
-                <Phone className="w-6 h-6 sm:w-5 sm:h-5 text-[#05ce9b]" />
-                <a href="tel:+918178099663" className="text-gray-400 text-base sm:text-sm">+91 97111497160</a>
-              </div>
+              
               <div className="flex items-center justify-center md:justify-start space-x-3">
                 <MapPin className="w-6 h-6 sm:w-5 sm:h-5 text-[#05ce9b]" />
                 <span className="text-gray-400 text-base sm:text-sm">Block B Palam Vihar Extension<br /> Gurgaon-122017</span>

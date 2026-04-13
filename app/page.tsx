@@ -610,16 +610,7 @@ export default function HomePage() {
                   
                
 
-                <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-[#14473b] to-[#039158]  rounded-full flex items-center justify-center">
-                    <Phone className="w-5 h-5 text-white" />
-                  </div>
-                  <div>
-                    <p className="text-xs sm:text-sm text-gray-600">Call Us Anytime</p>
-                    <a href="tel:+918178099663" className="text-lg sm:text-xl font-bold text-gray-900">+91 9716689858</a>
-
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
