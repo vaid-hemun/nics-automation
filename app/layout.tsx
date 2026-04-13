@@ -6,6 +6,7 @@ import Footer from '@/components/Footer'
 import ErrorBoundary from '@/components/ErrorBoundary'
 import ScrollToTop from '@/components/ScrollToTop'
 import { AuthProvider } from '@/contexts/AuthContext'
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -49,6 +50,7 @@ export default function RootLayout({
             <Footer />
           </AuthProvider>
         </ErrorBoundary>
+        <Analytics />
       </body>
     </html>
   )
