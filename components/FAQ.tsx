@@ -12,27 +12,27 @@ const faqData: FAQItem[] = [
   {
     id: 1,
     question: "What services does NICS Automation provide?",
-    answer: "NICS Automation offers end-to-end industrial automation solutions including PLC programming, control panel design, system integration, and maintenance services. We also support businesses with digital solutions like website development to enhance their online presence."
+    answer: "NICS Automation offers AI automation, chatbots, WhatsApp automation, CRM integration, and web development."
   },
   {
     id: 2,
-    question: "Why is automation important for modern industries?",
-    answer: "Automation helps industries improve efficiency, reduce human errors, and increase productivity. It also ensures consistent output quality, minimizes downtime, and enhances safety in manufacturing environments."
+    question: "How can AI help my business",
+    answer: "Automates processes, captures leads, improves engagement."
   },
   {
     id: 3,
-    question: "Do you provide customized automation solutions?",
-    answer: "Yes, we specialize in delivering customized automation solutions based on your specific industry requirements. Our team analyzes your processes and designs systems that optimize performance and scalability."
+    question: "Do you provide WhatsApp automation?",
+    answer: "Yes, automation for chats, follow-ups, bookings."
   },
   {
     id: 4,
-    question: "How does a professional website benefit industrial businesses?",
-    answer: "A professional website helps establish credibility, attract new clients, and showcase your services globally. It acts as a digital presence for your business, making it easier for potential clients to find and connect with you."
+    question: "Can you integrate CRM?",
+    answer: "Yes, full CRM integrations supported."
   },
   {
     id: 5,
-    question: "Do you provide support and maintenance after project completion?",
-    answer: "Absolutely. We offer ongoing support, maintenance, and upgrades to ensure your systems run smoothly and efficiently. Our team is always available to assist with troubleshooting and improvements."
+    question: "Is this suitable for small businesses?",
+    answer: "Yes, scalable for all business sizes."
   }
 ];
 
@@ -56,9 +56,8 @@ const FAQ: React.FC = () => {
                 <span className="w-2 h-2 bg-gradient-to-r from-[#14473b] to-[#039158]  rounded-full"></span>
                 FAQs
               </div>
-              <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
-                You Are Confused!<br />
-                <span className="text-[#05ce9b]">Question & Answers.</span>
+              <h1 className="text-1.5xl sm:text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
+               Everything You Need to Know About Our AI Automation Solutions
               </h1>
              
             </div>

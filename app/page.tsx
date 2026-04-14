@@ -491,7 +491,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-base sm:text-lg text-gray-600 max-w-md mx-auto lg:mx-0 leading-relaxed heros-para">
-                We help businesses scale faster with AI-powered automation and modern web development—from WhatsApp assistants and content automation to high-converting websites.
+                We help businesses generate leads, automate operations, and scale faster with AI-powered chatbots, WhatsApp automation, and high-converting websites.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-6">
@@ -575,7 +575,7 @@ export default function HomePage() {
               </h2>
 
               <p className="text-base sm:text-lg text-gray-600 leading-relaxed about-para">
-                 At NICS Automation, we specialize in AI-powered automation and modern web development solutions. From WhatsApp assistants and social media automation to high-performing websites, we help businesses save time, increase efficiency, and generate more leads.
+                 At NICS Automation, we build AI-powered automation systems, chatbots, and high-converting websites that help businesses generate leads, streamline operations, and improve customer engagement.
               </p>
 
               {/* Features */}

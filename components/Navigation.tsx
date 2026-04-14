@@ -82,7 +82,7 @@ export default function Navigation() {
           <div className="flex items-center justify-between h-16 md:h-20">
             <Link href="/" className="flex items-center space-x-3">
               <img
-                src="/logo/NICSlogo.svg"
+                src="/logo/Nicslogo.png"
                 alt="logo"
                 className="h-16 md:h-20 w-auto object-contain scale-125 origin-left"
               />
@@ -115,15 +115,21 @@ export default function Navigation() {
       <nav className="w-full md:max-w-screen-xl md:mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* NAVBAR INNER */}
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-20 md:h-24 relative">
 
           {/* LOGO */}
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center gap-2">
             <img
-              src="/logo/NICSlogo.svg"
+              src="/logo/Nicslogo.png"
               alt="logo"
-              className="h-16 md:h-20 w-auto scale-[1.3] md:scale-[1.8] origin-left"
+              className="h-14 md:h-16 w-auto object-contain"
             />
+             {/* Text */}
+  <div className="leading-tight">
+    <span className="text-lg md:text-2xl font-bold text-[#0f172a]">
+    NICS Automation
+  </span>
+  </div>
           </Link>
 
           {/* DESKTOP MENU */}
