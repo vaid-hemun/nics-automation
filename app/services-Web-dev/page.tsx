@@ -17,7 +17,7 @@ const webDevelopmentFaqData = [
     {
         id: 2,
         question: 'Which is the best company for web development?',
-        answer: 'The best company for web development is one that understands your business needs, has a proven track record, offers end-to-end solutions, and provides ongoing support. Digiwebclub is recognized for its expertise, client-centric approach, and innovative solutions.'
+        answer: 'The best company for web development is one that understands your business needs, has a proven track record, offers end-to-end solutions, and provides ongoing support. NICS Automation is recognized for its expertise, client-centric approach, and innovative solutions.'
     },
     {
         id: 3,
@@ -41,18 +41,18 @@ const webDevelopmentFaqData = [
     },
     {
         id: 7,
-        question: 'What makes Digiwebclub different from other web development companies?',
-        answer: 'Digiwebclub stands out due to its client-focused approach, experienced team, use of the latest technologies, transparent processes, and commitment to delivering high-quality, customized solutions on time.'
+        question: 'What makes NICS Automation different from other web development companies?',
+        answer: 'NICS Automation stands out due to its client-focused approach, experienced team, use of the latest technologies, transparent processes, and commitment to delivering high-quality, customized solutions on time.'
     },
     {
         id: 8,
-        question: 'Can Digiwebclub help with both front-end and back-end development?',
-        answer: 'Yes, Digiwebclub offers comprehensive web development services, including both front-end (UI/UX, responsive design) and back-end (server, database, API) development to deliver complete and robust web solutions.'
+        question: 'Can NICS Automation help with both front-end and back-end development?',
+        answer: 'Yes, NICS Automation offers comprehensive web development services, including both front-end (UI/UX, responsive design) and back-end (server, database, API) development to deliver complete and robust web solutions.'
     },
     {
         id: 9,
-        question: 'How can I get started with Digiwebclub for my web development project?',
-        answer: 'You can get started by contacting Digiwebclub through their website or contact page. Share your project requirements, and their team will guide you through the process from consultation to project delivery.'
+        question: 'How can I get started with NICS Automation for my web development project?',
+        answer: 'You can get started by contacting NICS Automation through their website or contact page. Share your project requirements, and their team will guide you through the process from consultation to project delivery.'
     },
     {
         id: 10,
@@ -239,7 +239,7 @@ function WebDevelopment() {
                     <p className="mb-6 text-base">These are some benefits that you will experience if you hire a website development company in India, these are must-haves when it comes to developing a website that is going to represent your brand in front of the world.</p>
 
                     <h3 className="text-2xl font-bold mb-4">Which is the Best Website Development Company in India?</h3>
-                    <p className="mb-4 text-base">The straight one-word answer to this question is Digiwebclub. At Intileo we offer IT solutions to businesses. We have been serving businesses for the past 10 years.  We have made technically sound and user-optimized websites for businesses like Astrochat, Bythebook, Anchor, and many more.</p>
+    
                     <p className="mb-4 text-base">We provide full-stack website development services for all small or large-scale businesses. Our comprehensive services include:</p>
                     <ul className="list-disc pl-6 mb-6 text-base">
                         <li className="mb-2"><span className="font-semibold">Customized Web Solutions</span><br />We provide customized web solutions as customization helps in standing out from the crowd. It will allow you to get yourself a website just the way you like you can put personal touches to make it unique. Customization is vital for business websites because of the differences in the sectors and niches. We will create a website that is like none other and is made just for you and your business needs.</li>
@@ -312,7 +312,7 @@ function WebDevelopment() {
                             <span className="font-semibold">Maintenance and updates:</span> The work does not end on the deployment part. After the launch, we are responsible for maintaining the website, regulating traffic, and also introducing needed updates timely to keep up with societal trends.
                         </li>
                     </ol>
-                    <p className="mt-8 text-lg text-gray-800">These are the steps through which we create magic being a web development company in India. This is all about Web development, if you are aiming to launch a website for yourself do not waste time and get yourself a one-of-a-kind website from Intileo today!</p>
+                    <p className="mt-8 text-lg text-gray-800">These are the steps through which we create magic being a web development company in India. This is all about Web development, if you are aiming to launch a website for yourself do not waste time and get yourself a one-of-a-kind website from NICS Automation today!</p>
                 </div>
             </section>
 

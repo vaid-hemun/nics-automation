@@ -92,6 +92,7 @@ export default function Navigation() {
               <Link href="/about">About</Link>
               <Link href="/services">Service</Link>
               <Link href="/contact">Contact</Link>
+              <Link href="/FAQ">FAQs</Link>
             </div>
             <button className="md:hidden p-2 rounded-lg">
               <Menu className="w-6 h-6" />
@@ -141,7 +142,7 @@ export default function Navigation() {
             </li>
             <li>
               <Link href="/about" className="hover:text-[#05ce9b] transition">
-                About
+                About US
               </Link>
             </li>
             <li>
@@ -151,7 +152,12 @@ export default function Navigation() {
             </li>
             <li>
               <Link href="/contact" className="hover:text-[#05ce9b] transition">
-                Contact
+                Contact US
+              </Link>
+            </li>
+            <li>
+              <Link href="#faq" className="hover:text-[#05ce9b] transition">
+              FAQs
               </Link>
             </li>
           </ul>
@@ -195,7 +201,7 @@ export default function Navigation() {
             onClick={() => setMobileOpen(false)}
             className="block px-6 py-3 border-b"
           >
-            About
+            About Us
           </Link>
         </li>
 
@@ -215,7 +221,16 @@ export default function Navigation() {
             onClick={() => setMobileOpen(false)}
             className="block px-6 py-3"
           >
-            Contact
+            Contact Us
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="#faq"
+            onClick={() => setMobileOpen(false)}
+            className="block px-6 py-3"
+          >
+            FAQs
           </Link>
         </li>
 

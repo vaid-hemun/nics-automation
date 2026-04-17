@@ -490,7 +490,7 @@ export default function HomePage() {
                 <span className="text-gray-700"></span>
               </h1>
 
-              <p className="text-base sm:text-lg text-gray-600 max-w-md mx-auto lg:mx-0 leading-relaxed heros-para">
+              <p className="text-base sm:text-lg text-gray-900 sm:text-gray-700 max-w-md mx-auto lg:mx-0 leading-relaxed heros-para">
                 We help businesses generate leads, automate operations, and scale faster with AI-powered chatbots, WhatsApp automation, and high-converting websites.
               </p>
 
@@ -973,7 +973,7 @@ export default function HomePage() {
         </div>
       </section> */}
 
-      <section>
+      <section id="faq">
         <FAQ />
       </section>
 

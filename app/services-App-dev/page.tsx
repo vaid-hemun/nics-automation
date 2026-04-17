@@ -22,7 +22,7 @@ const AppDevelopmentFaqData = [
     {
         id: 3,
         question: 'Which Company is Best for App Development services in India?',
-        answer: 'The best company for app development in India is one with a proven track record, skilled developers, a client-centric approach, and a portfolio of successful projects. Digiwebclub is recognized for delivering innovative, customized, and reliable mobile app solutions tailored to client needs.'
+        answer: 'The best company for app development in India is one with a proven track record, skilled developers, a client-centric approach, and a portfolio of successful projects. NICS Automation is recognized for delivering innovative, customized, and reliable mobile app solutions tailored to client needs.'
     },
     {
         id: 4,
@@ -36,8 +36,8 @@ const AppDevelopmentFaqData = [
     },
     {
         id: 6,
-        question: 'Why consider Digiwebclub for the best Mobile App Development Services in India?',
-        answer: 'Digiwebclub offers a decade of experience, a skilled team, and a client-focused approach. We provide end-to-end mobile app solutions, from ideation to deployment and maintenance, ensuring high-quality, secure, and scalable apps that help your business grow.'
+        question: 'Why consider NICS Automation for the best Mobile App Development Services in India?',
+        answer: 'NICS Automation offers a decade of experience, a skilled team, and a client-focused approach. We provide end-to-end mobile app solutions, from ideation to deployment and maintenance, ensuring high-quality, secure, and scalable apps that help your business grow.'
     },
     {
         id: 7,
@@ -241,7 +241,7 @@ function AppDevelopment() {
                     <div className="md:w-1/2 w-full">
 
                         <p className="mb-6 text-lg">Do I need an app for my business? Is it worth investing in an app? Yes! Keeping the digital trends in mind, a mobile application is the best way to increase customer satisfaction. Introducing your customers to an app devoted to your services will help in delivering a clear message to them. This results in customer sustainability, enhanced customer experience, and increased revenue, sales, recognition, and brand visibility.</p>
-                        <p className="mb-8 text-lg">All of us want these benefits for our businesses, but how? This is where intileo comes into play. We have been providing extensive IT solutions for the past 10+ years. We offer proficient mobile app development services in India to every business that wants to grow.</p>
+                        <p className="mb-8 text-lg">All of us want these benefits for our businesses, but how? This is where NICS Automation comes into play. We have been providing extensive IT solutions for the past 10+ years. We offer proficient mobile app development services in India to every business that wants to grow.</p>
                         <p className="mb-8 text-lg">We specialize in creating highly interactive Native, Custom, and cross-platform mobile applications that follow digital trends. Whether you are a service provider or a product, you can contact us to get your customized mobile application today.</p>
                         <Link href="/contact">
                             <button className="bg-gradient-to-r from-[#14473b] to-[#039158]  hover:from-[#039bad] hover:to-[#05ce9b] text-white font-semibold py-3 px-8 rounded-full transition-all duration-200 shadow-lg hover:scale-105">Free Consultation</button>
@@ -296,9 +296,9 @@ function AppDevelopment() {
 
             {/* Why Choose Intileo Section */}
             <section className="py-16 bg-gray-50 flex flex-col items-center justify-center">
-                <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">Why Choose Intileo for your Mobile App Development services?</h2>
+                <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">Why Choose NICS Automation for your Mobile App Development services?</h2>
                 <div className="w-full max-w-4xl mx-auto text-lg text-gray-700 space-y-6">
-                    <p>Intileo has been serving for the past 10 years. Brands like Astrochat, Margdarshak, etc. have put their valuable trust in us. We offer services like custom app development, cross-platform app development, native app development, app maintenance and support, business consulting and strategy, mobile app prototype and so much more.</p>
+                    <p>NICS Automation has been serving for the past 10 years. Brands like Astrochat, Margdarshak, etc. have put their valuable trust in us. We offer services like custom app development, cross-platform app development, native app development, app maintenance and support, business consulting and strategy, mobile app prototype and so much more.</p>
                     <p>Our highly skilled developers will work closely with your dream to turn it into a beautiful reality. We follow a client-centric approach in which we ensure client satisfaction by creating functional mobile apps for their business because, at the end of the day, the client is what matters the most. We collaborate to create applications that include the client's personal touch, which helps in standing out from the crowd.</p>
                     <p>We make sure that the application is technically fit and appealing to the eyes, it should follow trends, and lastly, it should convey a clear message about your brand. Our versatile team will create a customized application that meets all your expectations.</p>
                     <p className="font-semibold text-blue-700">Are you ready to transform? So are we!</p>
@@ -309,7 +309,7 @@ function AppDevelopment() {
             <section className="py-16 bg-white flex flex-col items-center justify-center">
                 <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">How your app will be developed</h2>
                 <div className="w-full max-w-4xl mx-auto text-lg text-gray-700">
-                    <p className="mb-6">In Intileo, we believe in transparency. You deserve to know the procedure that is going to revolutionize your business. We follow a client-friendly approach to creating top-notch mobile applications that ensure growth and visibility.</p>
+                    <p className="mb-6">In NICS Automation, we believe in transparency. You deserve to know the procedure that is going to revolutionize your business. We follow a client-friendly approach to creating top-notch mobile applications that ensure growth and visibility.</p>
                     <ol className="list-decimal pl-6 space-y-6">
                         <li>
                             <span className="font-semibold">Step 1 - Collaboration:</span> This is the first and most important step in the mobile development process. In this section, we conduct a client session that helps in making major decisions. This includes discussing the goal, the target audience, the essence of the application, the service or product description, the tone of the brand, the color palette, and customizations. This session prevents misunderstandings and helps us deliver the exact result you are looking for.

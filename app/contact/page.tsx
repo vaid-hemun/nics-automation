@@ -250,7 +250,7 @@ function ConnectUs() {
 
       {/* <div className="mx-auto mb-10 w-full md:w-[1250px] h-[20rem] md:h-[450px] px-2 md:px-0">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.2348813985227!2d77.20364227618052!3d28.74240337908164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cffabb16a566d%3A0x5e1c8ed4b3de828b!2sDigiwebclub%20-%20Digital%20Marketing%20Agency%20in%20Delhi%2C%20India!5e0!3m2!1sen!2sin!4v1751695069769!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.2348813985227!2d77.20364227618052!3d28.74240337908164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cffabb16a566d%3A0x5e1c8ed4b3de828b!2sNICS Automation%20-%20Digital%20Marketing%20Agency%20in%20Delhi%2C%20India!5e0!3m2!1sen!2sin!4v1751695069769!5m2!1sen!2sin"
           width="100%"
           height="100%"
           style={{ border: 0 }}
