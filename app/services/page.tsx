@@ -416,14 +416,14 @@ function Service() {
         </div>
 
         <div className="relative z-10 container mx-auto px-6 h-full flex flex-col justify-center items-center text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">Service</h1>
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">Services</h1>
           <nav className="flex items-center space-x-2 text-white/80">
             <Home className="w-4 h-4" />
             <Link href="/">
               <span className="text-sm">Home</span>
             </Link>
             <ChevronRight className="w-4 h-4" />
-            <span className="text-sm text-[#05ce9b]">Service</span>
+            <span className="text-sm text-[#05ce9b]">Services</span>
           </nav>
         </div>
       </section>
