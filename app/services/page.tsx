@@ -466,68 +466,7 @@ function Service() {
         </div>
       </section>
 
-      {/* Work Process Section */}
-      <section ref={workProcessRef} className="py-20 bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="left-content">
-              <div className="flex items-center mb-4">
-                <div className="w-2 h-2 bg-gradient-to-r from-[#14473b] to-[#039158]  rounded-full mr-2"></div>
-                <span className="text-[#05ce9b] font-medium uppercase tracking-wide">Ideas come to life</span>
-              </div>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
-                Work Starts<br />
-                Immediately
-              </h2>
-              <div className="space-y-6 mb-9">
-                <div className="flex items-center">
-                  <CheckCircle className="w-6 h-6 text-[#05ce9b] mr-4 flex-shrink-0" />
-                  <span className="text-lg text-gray-700">User Research</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-6 h-6 text-[#05ce9b] mr-4 flex-shrink-0" />
-                  <span className="text-lg text-gray-700">StoryBoard</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-6 h-6 text-[#05ce9b] mr-4 flex-shrink-0" />
-                  <span className="text-lg text-gray-700">Wireframing</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-6 h-6 text-[#05ce9b] mr-4 flex-shrink-0" />
-                  <span className="text-lg text-gray-700">Usability Testing</span>
-                </div>
-              </div>
-              <img
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
-                alt="Team collaboration"
-                className="w-full object-cover rounded-2xl"
-              />
-            </div>
-            <div className="grid grid-rows-2 right-content">
-              <div className="space-y-4">
-                <img
-                  src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
-                  alt="Office workspace"
-                  className="w-full object-cover rounded-2xl"
-                />
-              </div>
-              <div className="grid grid-cols-2 gap-4 space-y-5 pt-2">
-                <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80"
-                  alt="Professional meeting"
-                  className="w-full object-cover rounded-2xl"
-                />
-                <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80"
-                  alt="Professional meeting"
-                  className="w-full object-cover rounded-2xl"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+     
       {/* Diversity Section */}
       {/* <section ref={faqRef} className="py-12 text-white" style={{
         backgroundImage: 'url(https://themexriver.com/wp/haptic-wp/wp-content/uploads/2023/06/faq-bg-1.jpg)',
