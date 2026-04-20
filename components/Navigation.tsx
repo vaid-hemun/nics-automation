@@ -90,7 +90,7 @@ export default function Navigation() {
             <div className="hidden md:flex items-center space-x-10 text-base font-semibold">
               <Link href="/">Home</Link>
               <Link href="/about">About</Link>
-              <Link href="/services">Services</Link>
+              <Link href="/services"> Our Services</Link>
               <Link href="/contact">Contact</Link>
               <Link href="/FAQ">FAQs</Link>
             </div>
@@ -142,21 +142,21 @@ export default function Navigation() {
             </li>
             <li>
               <Link href="/about" className="hover:text-[#05ce9b] transition">
-                About US
+                About Us
               </Link>
             </li>
             <li>
               <Link href="/services" className="hover:text-[#05ce9b] transition">
-                Services
+                Our Services
               </Link>
             </li>
             <li>
               <Link href="/contact" className="hover:text-[#05ce9b] transition">
-                Contact US
+                Contact Us
               </Link>
             </li>
             <li>
-              <Link href="#faq" className="hover:text-[#05ce9b] transition">
+              <Link href="/#faq" className="hover:text-[#05ce9b] transition">
               FAQs
               </Link>
             </li>
@@ -211,7 +211,7 @@ export default function Navigation() {
             onClick={() => setMobileOpen(false)}
             className="block px-6 py-3 border-b"
           >
-            Services
+           Our Services
           </Link>
         </li>
 
@@ -226,7 +226,7 @@ export default function Navigation() {
         </li>
         <li>
           <Link
-            href="#faq"
+            href="/#faq"
             onClick={() => setMobileOpen(false)}
             className="block px-6 py-3"
           >

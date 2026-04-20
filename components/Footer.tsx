@@ -48,20 +48,20 @@ export default function Footer() {
                 Home
               </Link>
               <Link href="/about" className="block text-gray-400 hover:text-[#05ce9b] transition-colors duration-300 py-2 sm:py-0">
-                About
+                About Us
               </Link>
               <Link href="/services" className="block text-gray-400 hover:text-[#05ce9b] transition-colors duration-300 py-2 sm:py-0">
-                Services
+                Our Services
               </Link>
               <Link href="/contact" className="block text-gray-400 hover:text-[#05ce9b] transition-colors duration-300 py-2 sm:py-0">
-                Contact
+                Contact Us
               </Link>
             </div>
           </div>
 
           {/* Services */}
           <div className="space-y-6 sm:space-y-4 flex flex-col items-center md:items-start">
-            <h3 className="text-lg font-semibold">Services</h3>
+            <h3 className="text-lg font-semibold">Our Services</h3>
             <div className="space-y-3 sm:space-y-2 w-full">
               <Link href="/services-DigitalMarketing" className="block text-gray-400 hover:text-[#05ce9b] transition-colors duration-300 py-2 sm:py-0">
                 Digital Marketing
