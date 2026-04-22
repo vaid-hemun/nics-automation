@@ -365,37 +365,37 @@ function Service() {
     {
       logo: TrendingUp,
       head: "Digital Marketing",
-      para: "No matter how big your company is, as you expand and reach new highs you'll want an agency to have your back.",
+      para: "Grow your business with data-driven digital marketing strategies including SEO, social media marketing, and paid advertising to generate quality leads and increase brand visibility across platforms.",
       href: "/services-DigitalMarketing",
     },
     {
       logo: Code,
       head: "Web Development",
-      para: "No matter how big your company is, as you expand and reach new highs you'll want an agency to have your back.",
+      para: "Build fast, secure, and scalable websites tailored to your business needs, including responsive design, e-commerce functionality, and high-performance optimization to convert visitors into customers.",
       href: "/services-Web-dev",
     },
     {
       logo: Palette,
       head: "App Development",
-      para: "No matter how big your company is, as you expand and reach new highs you'll want an agency to build and support your apps.",
+      para: "Turn your ideas into powerful mobile applications with seamless performance, intuitive UI/UX design, and robust backend systems for both Android and iOS platforms.",
       href: "/services-App-dev",
     },
     {
       logo: Palette,
       head: "AI Chat Automation",
-      para: "No matter how big your company is, as you expand and reach new highs you'll want an agency to ensure quality and reliability through expert QA and testing services.",
+      para: "Automate customer conversations with intelligent AI chatbots integrated into your website and WhatsApp, enabling instant responses, lead capture, and 24/7 customer support without manual effort.",
       href: "/services-QA",
     },
     {
       logo: Palette,
       head: "AI Sales Automation",
-      para: "No matter how big your company is, as you expand and reach new highs you'll want an agency to build and support your CRM solutions.",
+      para: "Streamline your sales process with AI-driven lead management, CRM integration, and automated follow-ups to improve conversion rates and manage your pipeline efficiently.",
       href: "/services-CRM",
     },
     {
       logo: Palette,
       head: "AI Content & Engagement",
-      para: "No matter how big your company is, as you expand and reach new highs you'll want an agency to empower your business with analytics and AI/ML solutions.",
+      para: "Enhance your online presence with AI-powered content creation, social media automation, and smart engagement strategies to attract, interact with, and retain your audience effectively.",
       href: "/services-Analytics",
     },
   ]
