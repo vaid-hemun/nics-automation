@@ -1,2 +1,2 @@
 ﻿# NICS Automation
-webiste: nicsautomation.com
+webiste: https://nicsautomation.com
