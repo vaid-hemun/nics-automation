@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     title: 'NICS Automation',
     description: 'Premier destination for digital creative solutions.',
   },
+  verification: {
+  google: 'BtF0RIkByzRsJyFRxTiCp_BYHmkhjPUTkXa4UPlXMyE',
+},
 }
 
 export default function RootLayout({
