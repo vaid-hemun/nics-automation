@@ -19,7 +19,7 @@ const testimonials: Testimonial[] = [
     role: "Plant Head",
     quote: "NICS Automation delivered exactly what our facility needed. Their automation solutions improved our operational efficiency significantly and reduced downtime. The team was highly professional and responsive throughout the project.",
     rating: 5,
-    image: "https://randomuser.me/api/portraits/men/75.jpg"
+    image: "/assests/contactT.webp"
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const testimonials: Testimonial[] = [
     role: "Production Manager",
     quote: "We saw immediate improvements after implementing their systems. Their expertise in industrial automation and attention to detail helped streamline our entire production process.",
     rating: 5,
-    image: "https://randomuser.me/api/portraits/men/32.jpg"
+    image: "/assests/contactT.webp"
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const testimonials: Testimonial[] = [
     role: "Operations Head",
     quote: "The team at NICS Automation truly understands industry requirements. Their customized solutions and smooth integration made a huge difference in our daily operations.",
     rating: 5,
-    image: "https://randomuser.me/api/portraits/women/44.jpg"
+    image: "/assests/contactT.webp"
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const testimonials: Testimonial[] = [
     role: "Maintenance Manager",
     quote: "Their support and after-installation service are exceptional. The automation systems are reliable, efficient, and easy to manage. Highly recommended for any industrial setup.",
     rating: 5,
-    image: "https://randomuser.me/api/portraits/men/54.jpg"
+    image: "/assests/contactT.webp"
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const testimonials: Testimonial[] = [
     role: "Project Engineer",
     quote: "From planning to execution, everything was handled smoothly. Their technical expertise and commitment to quality make them a trusted automation partner.",
     rating: 5,
-    image: "https://randomuser.me/api/portraits/women/68.jpg"
+    image: "/assests/contactT.webp"
   }
 ];
 
