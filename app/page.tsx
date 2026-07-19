@@ -641,56 +641,103 @@ export default function HomePage() {
           </div>
 
           {/* Cards Grid */}
-          <div className="flex flex-nowrap gap-4 sm:gap-6 overflow-x-auto pb-6">
-            {offerCards.map((card, index) => (
-              <div
-                key={index}
-                className={`bg-white rounded-2xl shadow-lg p-4 sm:p-6 flex flex-col items-center justify-center text-center group relative h-[400px] sm:h-[500px] transition-all duration-500 ease-in-out overflow-hidden cursor-pointer ${openCard === index
-                  ? 'min-w-[300px] sm:min-w-[400px]'
-                  : 'min-w-[180px] sm:min-w-[200px]'
-                  }`}
-                onClick={() => setOpenCard(index)}
-                onMouseEnter={() => setOpenCard(index)}
-              >
-                {/* Background Image */}
-                <div
-                  className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-500 ease-in-out ${openCard === index ? 'opacity-100' : 'opacity-0'
-                    }`}
-                  style={{ backgroundImage: `url(${card.backgroundImage})` }}
-                >
-                  {/* Dark overlay for better text readability */}
-                  <div className={`absolute inset-0 transition-all duration-500 ${openCard === index ? 'bg-black/70' : 'bg-black/60'
-                    }`}></div>
-                </div>
+         <div className="max-w-6xl mx-auto space-y-5">
 
-                {/* Default Content */}
-                <div className={`transition-all duration-500 absolute inset-0 flex flex-col items-center justify-center z-10 ${openCard === index ? 'opacity-0' : 'opacity-100'
-                  }`}>
-                  <h3 className="text-lg sm:text-2xl font-bold text-gray-800 rotate-90 whitespace-nowrap origin-center flex items-center gap-2">
-                    {card.icon}
-                    {card.title}
-                  </h3>
-                </div>
+  {offerCards.map((card, index) => {
+    const isOpen = openCard === index;
 
-                {/* Hover Content */}
-                <div className={`absolute transition-all duration-500 text-white p-6 flex flex-col items-center justify-center h-full z-20 ${openCard === index ? 'opacity-100' : 'opacity-0'
-                  }`}>
-                  <h3 className="text-xl sm:text-2xl font-bold mb-4 text-white">
-                    {card.title}
-                  </h3>
-                  <p className="mb-4 text-white/90 leading-relaxed">
-                    {card.description}
-                  </p>
-                  <Link
-  href="/services"
-  className="inline-block bg-gradient-to-r from-[#14473b] to-[#039158] hover:from-[#039bad] hover:to-[#05ce9b] text-white px-6 sm:px-8 py-3 rounded-full"
->
-  Learn More 
-</Link>
-                </div>
-              </div>
-            ))}
+    return (
+      <div
+        key={index}
+        className="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100"
+      >
+        {/* Header */}
+        <button
+          onClick={() => setOpenCard(isOpen ? -1 : index)}
+          className="w-full flex items-center justify-between px-6 md:px-8 py-5 text-left"
+        >
+          <div className="flex items-center gap-5">
+
+            <div className="flex-shrink-0">
+              {card.icon}
+            </div>
+
+            <div>
+              <h3 className="text-xl md:text-2xl font-bold text-gray-900">
+                {card.title}
+              </h3>
+            </div>
+
           </div>
+
+          <div
+            className={`text-3xl font-light transition-transform duration-300 ${
+              isOpen ? "rotate-180" : ""
+            }`}
+          >
+            ▼
+          </div>
+        </button>
+
+        {/* Expand Content */}
+        <div
+          className={`transition-all duration-500 ease-in-out overflow-hidden ${
+            isOpen
+              ? "max-h-[600px] opacity-100"
+              : "max-h-0 opacity-0"
+          }`}
+        >
+          <div className="border-t px-6 md:px-8 py-6">
+
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
+
+              {/* Text */}
+              <div>
+
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                  {card.title}
+                </h2>
+
+                <p className="text-gray-600 leading-7 mb-6">
+                  {card.description}
+                </p>
+
+                <ul className="space-y-2 mb-8 text-gray-700">
+                  <li>✓ Smart AI Automation</li>
+                  <li>✓ 24/7 Customer Engagement</li>
+                  <li>✓ Easy Integration</li>
+                  <li>✓ Increase Business Growth</li>
+                </ul>
+
+                <Link
+                  href="/services"
+                  className="inline-flex items-center bg-gradient-to-r from-[#14473b] to-[#039158] hover:from-[#039bad] hover:to-[#05ce9b] text-white px-6 py-3 rounded-full transition-all"
+                >
+                  Learn More →
+                </Link>
+
+              </div>
+
+              {/* Image */}
+              <div>
+
+                <img
+                  src={card.backgroundImage}
+                  alt={card.title}
+                  className="w-full h-[220px] md:h-[260px] object-cover rounded-2xl shadow-md"
+                />
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    );
+  })}
+
+</div>
         </div>
       </section>
 
