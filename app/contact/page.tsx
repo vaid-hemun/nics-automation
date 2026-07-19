@@ -140,7 +140,7 @@ function ConnectUs() {
                 <div className="flex items-start gap-2 md:gap-3">
                   <MapPin className="w-5 h-5 md:w-6 md:h-6 text-[#05ce9b] mt-1 flex-shrink-0" />
                   <p className="text-sm md:text-lg text-gray-300 leading-relaxed">
-                    Block B Palam Vihar Extension,<br />
+                     B-68 Palam Vihar Extension,<br />
                     Gurgaon,122017
                   </p>
                 </div>
