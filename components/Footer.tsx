@@ -96,7 +96,7 @@ export default function Footer() {
               
               <div className="flex items-center justify-center md:justify-start space-x-3">
                 <MapPin className="w-6 h-6 sm:w-5 sm:h-5 text-[#05ce9b]" />
-                <span className="text-gray-400 text-base sm:text-sm">Block B Palam Vihar Extension<br /> Gurgaon-122017</span>
+                <span className="text-gray-400 text-base sm:text-sm">Block B-68 Palam Vihar Extension<br /> Gurgaon-122017</span>
               </div>
             </div>
           </div>
